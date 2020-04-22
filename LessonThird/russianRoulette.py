@@ -12,7 +12,7 @@ hm = int(howMuch)
 for i in range(hm):
     random.shuffle(baraban)
     if baraban[0] == 1:
-        print("Выстрел!")
+        print("Выстрел!\a")
     else:
         print("щелк")
 
