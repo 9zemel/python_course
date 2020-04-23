@@ -20,4 +20,3 @@ for k in range(len(arr_numbers[0])):
     count += 1
     if count % mnojitel == 0: #если число записей кратно множителю таблицы, время табуляци для нового столбца
         print('\t')
-
