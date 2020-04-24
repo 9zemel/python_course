@@ -6,7 +6,7 @@
 
 arr_numbers = [[], [], []]
 
-for i in range(1, 10):
+for i in range(2, 10):
     for j in range(1, 10):
         arr_numbers[0].append(i) #отдельно множители 1
         arr_numbers[1].append(j) #отдельно множители 2
