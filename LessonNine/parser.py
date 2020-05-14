@@ -12,6 +12,7 @@ page = requests.get(URL)
 
 soup = BeautifulSoup(page.content, 'html.parser')
 results = soup.find_all('img', src = re.compile('\/[a-z]+\/\d+\/\d+\.jpg'))
+results = soup.find_all('img', src = re.compile('\S+.jpg'))
 print(results)
 print(len(results))
 
